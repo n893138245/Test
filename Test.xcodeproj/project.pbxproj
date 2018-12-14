@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E14BFCC21C35EC4006107F0 /* viewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E14BFCB21C35EC4006107F0 /* viewControl.m */; };
 		3EBF96C921C3540000E85D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF96C821C3540000E85D3B /* AppDelegate.m */; };
 		3EBF96CC21C3540000E85D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF96CB21C3540000E85D3B /* ViewController.m */; };
 		3EBF96CF21C3540000E85D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF96CD21C3540000E85D3B /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		3EBF96D421C3540200E85D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBF96D221C3540200E85D3B /* LaunchScreen.storyboard */; };
 		3EBF96D721C3540200E85D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF96D621C3540200E85D3B /* main.m */; };
 		3EBF96E121C3540200E85D3B /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF96E021C3540200E85D3B /* TestTests.m */; };
+		3EBF96ED21C359E200E85D3B /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF96EC21C359E200E85D3B /* RatingControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E14BFCA21C35EC4006107F0 /* viewControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewControl.h; sourceTree = "<group>"; };
+		3E14BFCB21C35EC4006107F0 /* viewControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewControl.m; sourceTree = "<group>"; };
 		3EBF96C421C3540000E85D3B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF96C721C3540000E85D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EBF96C821C3540000E85D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		3EBF96DC21C3540200E85D3B /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBF96E021C3540200E85D3B /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		3EBF96E221C3540200E85D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBF96EB21C359E200E85D3B /* RatingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingControl.h; sourceTree = "<group>"; };
+		3EBF96EC21C359E200E85D3B /* RatingControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				3EBF96C821C3540000E85D3B /* AppDelegate.m */,
 				3EBF96CA21C3540000E85D3B /* ViewController.h */,
 				3EBF96CB21C3540000E85D3B /* ViewController.m */,
+				3EBF96EB21C359E200E85D3B /* RatingControl.h */,
+				3EBF96EC21C359E200E85D3B /* RatingControl.m */,
+				3E14BFCA21C35EC4006107F0 /* viewControl.h */,
+				3E14BFCB21C35EC4006107F0 /* viewControl.m */,
 				3EBF96CD21C3540000E85D3B /* Main.storyboard */,
 				3EBF96D021C3540200E85D3B /* Assets.xcassets */,
 				3EBF96D221C3540200E85D3B /* LaunchScreen.storyboard */,
@@ -203,9 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBF96ED21C359E200E85D3B /* RatingControl.m in Sources */,
 				3EBF96CC21C3540000E85D3B /* ViewController.m in Sources */,
 				3EBF96D721C3540200E85D3B /* main.m in Sources */,
 				3EBF96C921C3540000E85D3B /* AppDelegate.m in Sources */,
+				3E14BFCC21C35EC4006107F0 /* viewControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
